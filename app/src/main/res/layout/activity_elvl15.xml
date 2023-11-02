@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Elvl15">
+    <nl.dionsegijn.konfetti.KonfettiView
+        android:id="@+id/conffetti"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="146dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="384dp"
+        android:layout_height="129dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:fontFamily="@font/bree_serif"
+        android:text="@string/lvl7"
+        android:textAlignment="center"
+        android:textColor="#673AB7"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/GraphMain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.852" />
+
+    <ImageView
+        android:id="@+id/GraphMain"
+        android:layout_width="276dp"
+        android:layout_height="278dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.439"
+        app:srcCompat="@drawable/elvl15" />
+
+    <ImageView
+        android:id="@+id/v1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:onClick="v1Tap"
+        app:layout_constraintBottom_toBottomOf="@+id/GraphMain"
+        app:layout_constraintEnd_toEndOf="@+id/GraphMain"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="@+id/GraphMain"
+        app:layout_constraintTop_toTopOf="@+id/GraphMain"
+        app:layout_constraintVertical_bias="0.02"
+        app:srcCompat="@drawable/gray"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/v2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:onClick="v2Tap"
+        app:layout_constraintBottom_toBottomOf="@+id/GraphMain"
+        app:layout_constraintEnd_toEndOf="@+id/GraphMain"
+        app:layout_constraintStart_toStartOf="@+id/GraphMain"
+        app:layout_constraintTop_toTopOf="@+id/GraphMain"
+        app:layout_constraintVertical_bias="0.02"
+        app:srcCompat="@drawable/gray"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/v3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:onClick="v3Tap"
+        app:layout_constraintBottom_toBottomOf="@+id/GraphMain"
+        app:layout_constraintEnd_toEndOf="@+id/GraphMain"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toStartOf="@+id/GraphMain"
+        app:layout_constraintTop_toTopOf="@+id/GraphMain"
+        app:layout_constraintVertical_bias="0.02"
+        app:srcCompat="@drawable/gray"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/v4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:onClick="v4Tap"
+        app:layout_constraintBottom_toBottomOf="@+id/GraphMain"
+        app:layout_constraintEnd_toEndOf="@+id/GraphMain"
+        app:layout_constraintHorizontal_bias=".50"
+        app:layout_constraintStart_toStartOf="@+id/GraphMain"
+        app:layout_constraintTop_toTopOf="@+id/GraphMain"
+        app:srcCompat="@drawable/gray"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/v5"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:onClick="v5Tap"
+        app:layout_constraintBottom_toBottomOf="@+id/GraphMain"
+        app:layout_constraintEnd_toEndOf="@+id/GraphMain"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="@+id/GraphMain"
+        app:layout_constraintTop_toTopOf="@+id/GraphMain"
+        app:layout_constraintVertical_bias="0.980"
+        app:srcCompat="@drawable/gray"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/v6"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:onClick="v6Tap"
+        app:layout_constraintBottom_toBottomOf="@+id/GraphMain"
+        app:layout_constraintEnd_toEndOf="@+id/GraphMain"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/GraphMain"
+        app:layout_constraintTop_toTopOf="@+id/GraphMain"
+        app:layout_constraintVertical_bias="0.980"
+        app:srcCompat="@drawable/gray"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/v7"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:onClick="v7Tap"
+        app:layout_constraintBottom_toBottomOf="@+id/GraphMain"
+        app:layout_constraintEnd_toEndOf="@+id/GraphMain"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toStartOf="@+id/GraphMain"
+        app:layout_constraintTop_toTopOf="@+id/GraphMain"
+        app:layout_constraintVertical_bias="0.98"
+        app:srcCompat="@drawable/gray"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/l1check"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:background="@drawable/echeck"
+        android:fontFamily="@font/baloo"
+        android:onClick="check"
+        android:text="Check"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.216"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout2"
+        app:layout_constraintVertical_bias="0.42"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/l1check2"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:background="@drawable/purple"
+        android:fontFamily="@font/baloo"
+        android:onClick="clrAll"
+        android:text="Clear All"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.305"
+        app:layout_constraintStart_toEndOf="@+id/l1check"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout2"
+        app:layout_constraintVertical_bias="0.42"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bree_serif"
+        android:shadowColor="#070000"
+        android:text="LEVEL 15"
+        android:textColor="@color/eLvlH"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FF0000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.661" />
+
+    <TableLayout
+        android:id="@+id/tableLayout2"
+        android:layout_width="254dp"
+        android:layout_height="77dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/GraphMain"
+        app:layout_constraintVertical_bias="0.321">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            tools:layout_editor_absoluteX="34dp"
+            tools:layout_editor_absoluteY="541dp">
+
+            <Space
+                android:layout_width="@dimen/Space"
+                android:layout_height="32dp" />
+
+            <ImageView
+                android:id="@+id/sc1"
+                android:layout_width="@dimen/colorBtn"
+                android:layout_height="@dimen/colorBtn"
+                android:onClick="red"
+                app:srcCompat="@drawable/red"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+            <Space
+                android:layout_width="@dimen/Space2"
+                android:layout_height="32dp" />
+
+            <ImageView
+                android:id="@+id/sc2"
+                android:layout_width="@dimen/colorBtn"
+                android:layout_height="@dimen/colorBtn"
+                android:onClick="blue"
+                app:srcCompat="@drawable/blue"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Space
+                android:layout_width="@dimen/Space2"
+                android:layout_height="32dp" />
+
+            <ImageView
+                android:id="@+id/sc3"
+                android:layout_width="@dimen/colorBtn"
+                android:layout_height="@dimen/colorBtn"
+                android:onClick="yellow"
+                app:srcCompat="@drawable/yellow"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+            <Space
+                android:layout_width="@dimen/Space2"
+                android:layout_height="32dp" />
+
+            <ImageView
+                android:id="@+id/sc4"
+                android:layout_width="@dimen/colorBtn"
+                android:layout_height="@dimen/colorBtn"
+                android:onClick="green"
+                app:srcCompat="@drawable/green"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Space
+                android:layout_width="@dimen/Space2"
+                android:layout_height="32dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/space"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="34dp"
+            tools:layout_editor_absoluteY="541dp">
+
+            <Space
+                android:layout_width="@dimen/Space"
+                android:layout_height="@dimen/Space1" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="34dp"
+            tools:layout_editor_absoluteY="541dp">
+
+
+            <Space
+                android:layout_width="@dimen/Space2"
+                android:layout_height="32dp" />
+
+            <ImageView
+                android:id="@+id/sc5"
+                android:layout_width="@dimen/colorBtn"
+                android:layout_height="@dimen/colorBtn"
+                android:onClick="brown"
+                app:srcCompat="@drawable/brown"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Space
+                android:layout_width="@dimen/Space"
+                android:layout_height="32dp" />
+
+            <ImageView
+                android:id="@+id/sc6"
+                android:layout_width="@dimen/colorBtn"
+                android:layout_height="@dimen/colorBtn"
+                android:onClick="pink"
+                app:srcCompat="@drawable/pink"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Space
+                android:layout_width="@dimen/Space2"
+                android:layout_height="32dp" />
+
+            <ImageView
+                android:id="@+id/sc7"
+                android:layout_width="@dimen/colorBtn"
+                android:layout_height="@dimen/colorBtn"
+                android:onClick="cyan"
+                app:srcCompat="@drawable/cyan"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Space
+                android:layout_width="@dimen/Space2"
+                android:layout_height="32dp" />
+
+            <ImageView
+                android:id="@+id/sc8"
+                android:layout_width="@dimen/colorBtn"
+                android:layout_height="@dimen/colorBtn"
+                android:onClick="parrot"
+                app:srcCompat="@drawable/parot"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Space
+                android:layout_width="@dimen/Space2"
+                android:layout_height="32dp" />
+
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

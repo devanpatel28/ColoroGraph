@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FFFFFF</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="gray">#888888</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#007F20</color>
+    <color name="red">#FF0000</color>
+    <color name="tred">#E84849</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="lpurple">#9C27B0</color>
+    <color name="purple">#6900FF</color>
+    <color name="pink">#FF00AA</color>
+    <color name="blue">#0000FF</color>
+    <color name="cyan">#47D1E1</color>
+    <color name="brown">#AE4C06</color>
+    <color name="orange">#FF8B00</color>
+    <color name="parot">#00E941</color>
+    <color name="wheat">#EEE8AA</color>
+    <color name="dpurple">#800080</color>
+    <color name="eLvlH">#FF69B4</color>
+    <color name="mLvlH">#F7941D</color>
+    <color name="hLvlH">#FF0000</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="Dgray">#FFffff</color>
+    <color name="Cblue">#56859A</color>
+    <color name="peach">#8F7041</color>
+    <color name="Marron">#712727</color>
+    <color name="DSlate">#483D8B</color>
+    <color name="Elvls">#FF00AA</color>
+    <color name="Mlvls">#FF8B00</color>
+    <color name="Hlvls">#FF0000</color>
+</resources>

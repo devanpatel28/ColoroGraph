@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ColoroGraph</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="lvl1">Color all vertices of the graph.\n(Adjacent Vertices have not same color)</string>
+    <string name="lvl7">Color all vertices of the graph.\n(Adjacent Vertices have not same color)\n<i>USE <b><u>MINIMUM</u></b> NUMBER OF COLORS</i></string>
+    <string name="lvl18">Color all vertices of the graph.\n(Adjacent Vertices have not same color)\n<i>USE <b>3</b> COLORS</i></string>
+    <string name="lvl20">Color all vertices of the graph.\n(Adjacent Vertices have not same color)\n<i>USE <b>4</b> COLORS</i></string>
+    <string name="cpair">Color all vertices of the graph\nWith <u><b>Co - Color Method</b></u></string>
+    <string name="ed1">Color all edges of the graph.\n(Adjacent edges have not same color)</string>
+    <string name="edvr">Color the graph with total coloring method</string>
+    <string name="edone">You Completed All Easy Levels</string>
+    <string name="mdone">You Completed All Medium Levels</string>
+    <string name="todo">TODO</string>
+</resources>

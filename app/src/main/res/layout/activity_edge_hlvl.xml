@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundedge"
+    tools:context=".EdgeHlvl">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="310dp"
+        android:layout_height="368dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.55">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center">
+
+            <Space
+                android:layout_width="@dimen/Space"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/lvl1"
+                android:layout_width="@dimen/Btn_Size"
+                android:layout_height="@dimen/Btn_Size"
+                android:background="@drawable/hardhovbutton"
+                android:fontFamily="@font/alata"
+                android:onClick="lvl1"
+                android:text="1"
+                android:textColor="@drawable/hardhovbutton"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="@dimen/Space"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/lvl2"
+                android:layout_width="@dimen/Btn_Size"
+                android:layout_height="@dimen/Btn_Size"
+                android:background="@drawable/hardhovbutton"
+                android:fontFamily="@font/alata"
+                android:onClick="lvl2"
+                android:text="2"
+                android:textColor="@drawable/hardhovbutton"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="@dimen/Space"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/lvl3"
+                android:layout_width="@dimen/Btn_Size"
+                android:layout_height="@dimen/Btn_Size"
+                android:background="@drawable/hardhovbutton"
+                android:fontFamily="@font/alata"
+                android:onClick="lvl3"
+                android:text="3"
+                android:textColor="@drawable/hardhovbutton"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="@dimen/Space"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/lvl4"
+                android:layout_width="@dimen/Btn_Size"
+                android:layout_height="@dimen/Btn_Size"
+                android:background="@drawable/hardhovbutton"
+                android:fontFamily="@font/alata"
+                android:onClick="lvl4"
+                android:text="4"
+                android:textColor="@drawable/hardhovbutton"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="@dimen/Space"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/Space" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center">
+
+            <Space
+                android:layout_width="@dimen/Space"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/lvl5"
+                android:layout_width="@dimen/Btn_Size"
+                android:layout_height="@dimen/Btn_Size"
+                android:background="@drawable/hardhovbutton"
+                android:fontFamily="@font/alata"
+                android:onClick="lvl5"
+                android:text="5"
+                android:textColor="@drawable/hardhovbutton"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="@dimen/Space"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/lvl6"
+                android:layout_width="@dimen/Btn_Size"
+                android:layout_height="@dimen/Btn_Size"
+                android:background="@drawable/hardhovbutton"
+                android:fontFamily="@font/alata"
+                android:onClick="lvl6"
+                android:text="6"
+                android:textColor="@drawable/hardhovbutton"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="@dimen/Space"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/lvl7"
+                android:layout_width="@dimen/Btn_Size"
+                android:layout_height="@dimen/Btn_Size"
+                android:background="@drawable/hardhovbutton"
+                android:fontFamily="@font/alata"
+                android:onClick="lvl7"
+                android:text="7"
+                android:textColor="@drawable/hardhovbutton"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="@dimen/Space"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/lvl8"
+                android:layout_width="@dimen/Btn_Size"
+                android:layout_height="@dimen/Btn_Size"
+                android:background="@drawable/hardhovbutton"
+                android:fontFamily="@font/alata"
+                android:onClick="lvl8"
+                android:text="8"
+                android:textColor="@drawable/hardhovbutton"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="@dimen/Space"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/Space" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center">
+
+            <Space
+                android:layout_width="@dimen/Space"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/lvl9"
+                android:layout_width="@dimen/Btn_Size"
+                android:layout_height="@dimen/Btn_Size"
+                android:background="@drawable/hardhovbutton"
+                android:fontFamily="@font/alata"
+                android:onClick="lvl9"
+                android:text="9"
+                android:textColor="@drawable/hardhovbutton"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="@dimen/Space"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/lvl10"
+                android:layout_width="@dimen/Btn_Size"
+                android:layout_height="@dimen/Btn_Size"
+                android:background="@drawable/hardhovbutton"
+                android:fontFamily="@font/alata"
+                android:onClick="lvl10"
+                android:text="10"
+                android:textColor="@drawable/hardhovbutton"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="@dimen/Space"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/lvl11"
+                android:layout_width="@dimen/Btn_Size"
+                android:layout_height="@dimen/Btn_Size"
+                android:background="@drawable/hardhovbutton"
+                android:fontFamily="@font/alata"
+                android:onClick="lvl11"
+                android:text="11"
+                android:textColor="@drawable/hardhovbutton"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="@dimen/Space"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/lvl12"
+                android:layout_width="@dimen/Btn_Size"
+                android:layout_height="@dimen/Btn_Size"
+                android:background="@drawable/hardhovbutton"
+                android:fontFamily="@font/alata"
+                android:onClick="lvl12"
+                android:text="12"
+                android:textColor="@drawable/hardhovbutton"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="@dimen/Space"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/Space" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center">
+
+            <Space
+                android:layout_width="@dimen/Space"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/lvl13"
+                android:layout_width="@dimen/Btn_Size"
+                android:layout_height="@dimen/Btn_Size"
+                android:background="@drawable/hardhovbutton"
+                android:fontFamily="@font/alata"
+                android:onClick="lvl13"
+                android:text="13"
+                android:textColor="@drawable/hardhovbutton"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="@dimen/Space"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/lvl14"
+                android:layout_width="@dimen/Btn_Size"
+                android:layout_height="@dimen/Btn_Size"
+                android:background="@drawable/hardhovbutton"
+                android:fontFamily="@font/alata"
+                android:onClick="lvl14"
+                android:text="14"
+                android:textColor="@drawable/hardhovbutton"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="@dimen/Space"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/lvl15"
+                android:layout_width="@dimen/Btn_Size"
+                android:layout_height="@dimen/Btn_Size"
+                android:background="@drawable/hardhovbutton"
+                android:fontFamily="@font/alata"
+                android:onClick="lvl15"
+                android:text="15"
+                android:textColor="@drawable/hardhovbutton"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="@dimen/Space"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/lvl16"
+                android:layout_width="@dimen/Btn_Size"
+                android:layout_height="@dimen/Btn_Size"
+                android:background="@drawable/hardhovbutton"
+                android:fontFamily="@font/alata"
+                android:onClick="lvl16"
+                android:text="16"
+                android:textColor="@drawable/hardhovbutton"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="@dimen/Space"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/Space" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Space
+                android:layout_width="@dimen/Space"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/lvl17"
+                android:layout_width="@dimen/Btn_Size"
+                android:layout_height="@dimen/Btn_Size"
+                android:background="@drawable/hardhovbutton"
+                android:fontFamily="@font/alata"
+                android:onClick="lvl17"
+                android:text="17"
+                android:textColor="@drawable/hardhovbutton"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="@dimen/Space"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/lvl18"
+                android:layout_width="@dimen/Btn_Size"
+                android:layout_height="@dimen/Btn_Size"
+                android:background="@drawable/hardhovbutton"
+                android:fontFamily="@font/alata"
+                android:onClick="lvl18"
+                android:text="18"
+                android:textColor="@drawable/hardhovbutton"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="@dimen/Space"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/lvl19"
+                android:layout_width="@dimen/Btn_Size"
+                android:layout_height="@dimen/Btn_Size"
+                android:background="@drawable/hardhovbutton"
+                android:fontFamily="@font/alata"
+                android:onClick="lvl19"
+                android:text="19"
+                android:textColor="@drawable/hardhovbutton"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/Space" />
+
+            <Button
+                android:id="@+id/lvl20"
+                android:layout_width="@dimen/Btn_Size"
+                android:layout_height="@dimen/Btn_Size"
+                android:background="@drawable/hardhovbutton"
+                android:fontFamily="@font/alata"
+                android:onClick="lvl20"
+                android:text="20"
+                android:textColor="@drawable/hardhovbutton"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="@dimen/Space"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="285dp"
+        android:layout_height="67dp"
+        android:fontFamily="@font/bree_serif"
+        android:shadowColor="#070000"
+        android:text="HARD LEVELS"
+        android:textAlignment="center"
+        android:textColor="@color/hLvlH"
+        android:textColorHighlight="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.661" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
