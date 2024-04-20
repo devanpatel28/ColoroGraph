@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ColoroGraph.NoActionBar"
+        tools:targetApi="31">
+        <activity
+            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+            android:exported="false" />
+        <activity
+            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+            android:exported="false" />
+        <activity
+            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeHL20"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeHL19"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeHL18"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeHL17"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeHL16"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeHL15"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeHL14"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeHL12"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeHL13"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeHL11"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeHL10"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeHL9"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeHL8"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeHL7"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeHL6"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeHL5"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeHL4"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeHL3"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeHL2"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeHL1"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeML20"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeML19"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeML18"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeML17"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeML16"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeML15"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeML14"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeML13"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeML12"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeML11"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeML10"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeML9"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeML8"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeML7"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeML6"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeML5"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeML4"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeML3"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeML2"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeML1"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeEL20"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeEL19"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeEL18"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeEL17"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeEL16"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeEL15"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeEL14"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeEL13"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeEL12"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeEL11"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeEL10"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeEL9"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeEL8"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeEL7"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeEL6"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeEL5"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeEL4"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeEL3"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeEL2"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeEL1"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeHlvl"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeMlvl"
+            android:exported="false" />
+        <activity
+            android:name=".EdgeElvl"
+            android:exported="false" />
+        <activity
+            android:name=".Edge"
+            android:exported="false" />
+        <activity
+            android:name=".Vertex"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Hlvl20"
+            android:exported="false" />
+        <activity
+            android:name=".Hlvl19"
+            android:exported="false" />
+        <activity
+            android:name=".Hlvl18"
+            android:exported="false" />
+        <activity
+            android:name=".Hlvl17"
+            android:exported="false" />
+        <activity
+            android:name=".Hlvl16"
+            android:exported="false" />
+        <activity
+            android:name=".Hlvl15"
+            android:exported="false" />
+        <activity
+            android:name=".Hlvl14"
+            android:exported="false" />
+        <activity
+            android:name=".Hlvl13"
+            android:exported="false" />
+        <activity
+            android:name=".Hlvl12"
+            android:exported="false" />
+        <activity
+            android:name=".Hlvl11"
+            android:exported="false" />
+        <activity
+            android:name=".Hlvl10"
+            android:exported="false" />
+        <activity
+            android:name=".Hlvl9"
+            android:exported="false" />
+        <activity
+            android:name=".Hlvl8"
+            android:exported="false" />
+        <activity
+            android:name=".Hlvl7"
+            android:exported="false" />
+        <activity
+            android:name=".Hlvl6"
+            android:exported="false" />
+        <activity
+            android:name=".Hlvl5"
+            android:exported="false" />
+        <activity
+            android:name=".Hlvl4"
+            android:exported="false" />
+        <activity
+            android:name=".Hlvl3"
+            android:exported="false" />
+        <activity
+            android:name=".Hlvl2"
+            android:exported="false" />
+        <activity
+            android:name=".Hlvl1"
+            android:exported="false" />
+        <activity
+            android:name=".medium_done"
+            android:exported="false" />
+        <activity
+            android:name=".Mlvl20"
+            android:exported="false" />
+        <activity
+            android:name=".Mlvl19"
+            android:exported="false" />
+        <activity
+            android:name=".Mlvl18"
+            android:exported="false" />
+        <activity
+            android:name=".Mlvl17"
+            android:exported="false" />
+        <activity
+            android:name=".Mlvl16"
+            android:exported="false" />
+        <activity
+            android:name=".Mlvl15"
+            android:exported="false" />
+        <activity
+            android:name=".Mlvl14"
+            android:exported="false" />
+        <activity
+            android:name=".Mlvl13"
+            android:exported="false" />
+        <activity
+            android:name=".Mlvl12"
+            android:exported="false" />
+        <activity
+            android:name=".Mlvl11"
+            android:exported="false" />
+        <activity
+            android:name=".Mlvl10"
+            android:exported="false" />
+        <activity
+            android:name=".Mlvl9"
+            android:exported="false" />
+        <activity
+            android:name=".Mlvl8"
+            android:exported="false" />
+        <activity
+            android:name=".Mlvl7"
+            android:exported="false" />
+        <activity
+            android:name=".Mlvl6"
+            android:exported="false" />
+        <activity
+            android:name=".Mlvl5"
+            android:exported="false" />
+        <activity
+            android:name=".Mlvl4"
+            android:exported="false" />
+        <activity
+            android:name=".Mlvl3"
+            android:exported="false" />
+        <activity
+            android:name=".Mlvl2"
+            android:exported="false" />
+        <activity
+            android:name=".Mlvl1"
+            android:exported="false" />
+        <activity
+            android:name=".easy_done"
+            android:exported="false" />
+        <activity
+            android:name=".Elvl20"
+            android:exported="false" />
+        <activity
+            android:name=".Elvl19"
+            android:exported="false" />
+        <activity
+            android:name=".Elvl18"
+            android:exported="false" />
+        <activity
+            android:name=".Elvl17"
+            android:exported="false" />
+        <activity
+            android:name=".Elvl16"
+            android:exported="false" />
+        <activity
+            android:name=".Elvl15"
+            android:exported="false" />
+        <activity
+            android:name=".Elvl14"
+            android:exported="false" />
+        <activity
+            android:name=".Elvl13"
+            android:exported="false" />
+        <activity
+            android:name=".Elvl12"
+            android:exported="false" />
+        <activity
+            android:name=".Elvl11"
+            android:exported="false" />
+        <activity
+            android:name=".Elvl10"
+            android:exported="false" />
+        <activity
+            android:name=".Elvl9"
+            android:exported="false" />
+        <activity
+            android:name=".Elvl8"
+            android:exported="false" />
+        <activity
+            android:name=".Elvl7"
+            android:exported="false" />
+        <activity
+            android:name=".Elvl6"
+            android:exported="false" />
+        <activity
+            android:name=".Elvl5"
+            android:exported="false" />
+        <activity
+            android:name=".Elvl4"
+            android:exported="false" />
+        <activity
+            android:name=".Elvl3"
+            android:exported="false" />
+        <activity
+            android:name=".Elvl2"
+            android:exported="false" />
+        <activity
+            android:name=".Elvl1"
+            android:exported="false" />
+        <activity
+            android:name=".Welcome_page"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LevelHard"
+            android:exported="false" />
+        <activity
+            android:name=".LevelMedium"
+            android:exported="false" />
+        <activity
+            android:name=".LevelEasy"
+            android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
